@@ -78,7 +78,7 @@
                        --nodes-max=4 \
                        --node-volume-size=10 \
                        --ssh-access \
-                       --ssh-public-key=devops-demo-est \
+                       --ssh-public-key=devops-demo-est \ (change the keypair to our own key pair name)
                        --managed \
                        --asg-access \
                        --external-dns-access \
